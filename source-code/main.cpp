@@ -7,32 +7,33 @@ using namespace std;
 // IMPLEMENTASI ALGORITMA DALAM C++
 // ========================================
 
-// Nama Lengkap :
-// Kelas        :
-// Nomor Absen  :
+// Nama Lengkap :sarip hidayat
+// Kelas        :XII-9
+// Nomor Absen  :34
 // Judul Program:
 
 int main() {
 
     // 1. DEKLARASI VARIABEL
-    // Deklarasikan variabel yang diperlukan.
+    float p, l, L;
 
 
     // 2. INPUT
-    // Tuliskan kalimat perintah untuk menginputkan 
-    // dari pengguna menggunakan cin atau getline.
-
+    cout << "masukan nilai panjang =";
+    cin >> p;
+    cout << "masukan nilai lebar =";
+    cin >> l;
 
     // 3. PROSES
-    // Tuliskan proses atau perhitungan program.
-    // Gunakan IF-ELSE jika diperlukan.
-    // Gunakan FOR atau WHILE jika diperlukan.
+    L=p*l;
 
 
     // 4. OUTPUT
-    // Tuliskan perintah untuk menampilkan hasil
-    // menggunakan cout.
+    cout << "tampilkan nilai luas persegi panjang="<<L;
+   
 
 
     return 0;
 }
+
+
